@@ -1,73 +1,52 @@
-# Welcome to your Lovable project
+# 🎨 Photo Colorization
 
-## Project info
+This project uses deep learning to automatically convert **black-and-white** (grayscale) images into **fully colored** images. It leverages convolutional neural networks (CNNs) or pretrained colorization models to predict realistic colors based on learned patterns from millions of images.
 
-**URL**: https://lovable.dev/projects/b6583388-612b-4891-8cfc-0c18ef3269a4
+> ✨ With just a grayscale image as input, the model generates a vibrant, colorized version — restoring life to old photos, historical images, or artistic monochrome shots.
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## 📌 Project Overview
 
-**Use Lovable**
+The **Black & White to Color Image Converter** is an AI-based image processing project that brings color to monochrome images. It uses machine learning (typically CNN or autoencoders) to analyze textures, shapes, and context within grayscale images and predict visually accurate color values.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/b6583388-612b-4891-8cfc-0c18ef3269a4) and start prompting.
+Perfect for:
 
-Changes made via Lovable will be committed automatically to this repo.
+- Restoring old family photographs  
+- Colorizing historical images  
+- Enhancing black-and-white artwork  
+- Computer vision research  
+- Photo editing apps  
 
-**Use your preferred IDE**
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 🧠 Key Features
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+- 🖼 **Automatic Colorization** — No manual editing needed  
+- 🎨 **Realistic color prediction** using trained models  
+- 🧬 **Deep learning-based architecture** (CNN, U-Net, or pre-trained models)  
+- 🔍 **Supports multiple input formats** (JPG, PNG, BMP)  
+- 🚀 **Fast inference** using GPU (optional)  
+- 📷 **Optional web UI** for easy upload and download  
+- 💾 **High-quality output images**  
 
-Follow these steps:
+---
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+## 🏗 Tech Stack
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+- **Language:** Python  
+- **Deep Learning Frameworks:**  
+  - TensorFlow / Keras **or** PyTorch  
+- **Image Processing:**  
+  - OpenCV  
+  - NumPy  
+  - PIL  
+- **Optional UI:**  
+  - Streamlit / Flask  
 
-# Step 3: Install the necessary dependencies.
-npm i
+---
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+## 📁 Project Structure
 
-**Edit a file directly in GitHub**
+Example folder layout:
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/b6583388-612b-4891-8cfc-0c18ef3269a4) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
