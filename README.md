@@ -46,7 +46,4 @@ Perfect for:
 
 ---
 
-## 📁 Project Structure
-
-Example folder layout:
 
